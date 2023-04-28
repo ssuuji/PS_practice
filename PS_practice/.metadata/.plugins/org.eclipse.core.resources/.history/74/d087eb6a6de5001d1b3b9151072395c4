@@ -1,0 +1,27 @@
+package py2525;
+
+import java.util.Scanner;
+
+public class Main {//¿Àºì ½Ã°è
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int h = sc.nextInt();
+		int m = sc.nextInt();
+		
+		int c = sc.nextInt();
+		
+		if(m<c) {
+			h = h+(c%60);
+			if (m+c >60) {
+				m = (m+c) - 60;
+			}
+			else(){
+				m = 0;
+			}
+			
+		}
+		System.out.println(h+" "+m);
+	}
+
+}
