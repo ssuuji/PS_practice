@@ -1,0 +1,39 @@
+package ps25304;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long num = sc.nextLong(); //구매한 물건의 총 가격
+		
+		int su = sc.nextInt();//물건의 종류 수
+		
+		int a1, a2, a3, a4; //물건 가격
+		int b1, b2, b3, b4; //개수
+		
+		a1 = sc.nextInt();
+		b1 = sc.nextInt();
+		
+		a2 = sc.nextInt();
+		b2 = sc.nextInt();
+		
+		a3 = sc.nextInt();
+		b3 = sc.nextInt();
+		
+		a4 = sc.nextInt();
+		b4 = sc.nextInt();
+
+		long num2 = (a1*b1)+(a2*b2)+(a3*b3)+(a4*b4);
+		
+		if(num == num2) {
+			System.out.println("Yes");
+		}
+		else{
+			System.out.println("No");
+		}
+	}
+
+}

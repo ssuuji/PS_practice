@@ -1,0 +1,27 @@
+package ps25304;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long num = sc.nextLong(); //구매한 물건의 수
+		
+		int a1, a2, a3, a4; //물건 가격
+		int b1, b2, b3, b4; //개수
+		
+		a1 = sc.nextInt();
+		a1 = sc.nextInt();
+		a1 = sc.nextInt();
+		a1 = sc.nextInt();
+		
+		b1 = sc.nextInt();
+		b1 = sc.nextInt();
+		b1 = sc.nextInt();
+		b1 = sc.nextInt();
+
+	}
+
+}
